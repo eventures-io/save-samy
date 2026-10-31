@@ -9,6 +9,7 @@
     "petition": "Pétition",
     "share": "Partager",
     "testimonials": "Témoignages",
+    "googleReviews": "Avis Google",
     "contact": "Contact"
   },
   "hero": {
@@ -61,7 +62,30 @@
     "copied": "Copié !"
   },
   "testimonials": {
-    "title": "Témoignages publics",
+    "title": "Partagez votre expérience",
+    "subtitle": "Vous avez vécu une situation similaire au refuge Veeweyde ? Votre voix compte.",
+    "intro": "Écrivez votre expérience en toute liberté. Chaque témoignage est relu avant publication pour écarter les propos injurieux ou les mises en cause nominatives. Vous recevrez une confirmation à l'adresse e-mail renseignée.",
+    "formTitle": "Votre témoignage",
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "email": "Adresse e-mail",
+    "city": "Ville (facultatif)",
+    "text": "Votre expérience",
+    "textHelp": "Décrivez les faits que vous avez vécus. Évitez de nommer des personnes individuellement.",
+    "consentRgpd": "J'accepte que mes données soient traitées uniquement pour la modération de ce témoignage, conformément au RGPD.",
+    "consentDisplay": "J'accepte que mon prénom et ma ville apparaissent publiquement avec mon témoignage, une fois celui-ci validé.",
+    "submit": "Envoyer mon témoignage",
+    "submitting": "Envoi en cours…",
+    "success": "Merci. Votre témoignage a bien été reçu et sera publié après validation.",
+    "errorGeneric": "Une erreur est survenue. Merci de réessayer.",
+    "errorRateLimit": "Trop de tentatives. Merci de patienter un instant.",
+    "listTitle": "Témoignages publiés",
+    "empty": "Soyez la première personne à partager votre expérience.",
+    "noteTitle": "Note sur la modération",
+    "noteBody": "Les témoignages sont relus avant publication afin d'écarter les propos injurieux ou nommément accusatoires. Seul votre prénom (et votre ville, si vous l'avez accepté) est affiché publiquement. Vous pouvez demander la suppression de votre témoignage à tout moment en écrivant à contact@save-samy.be."
+  },
+  "googleReviews": {
+    "title": "Avis publics sur Google Maps",
     "subtitle": "Avis publiés par des tiers sur Google Maps au sujet du refuge Veeweyde",
     "intro": "Les textes ci-dessous ont été publiés publiquement par leurs auteurs sur la fiche Google Maps du refuge Veeweyde. Nous reproduisons uniquement le texte, en indiquant le prénom et un lien direct vers l'avis original hébergé par Google.",
     "openOriginal": "Voir l'avis original sur Google",

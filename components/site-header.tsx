@@ -23,9 +23,12 @@ export function SiteHeader() {
           <Link href="/#petition" className="hover:text-accent">
             {t("petition")}
           </Link>
-          {process.env.NEXT_PUBLIC_SHOW_TESTIMONIALS === "1" && (
-            <Link href="/testimonials" className="hover:text-accent">
-              {t("testimonials")}
+          <Link href="/testimonials" className="hover:text-accent">
+            {t("testimonials")}
+          </Link>
+          {process.env.NEXT_PUBLIC_SHOW_GOOGLE_REVIEWS === "1" && (
+            <Link href="/google-reviews" className="hover:text-accent">
+              {t("googleReviews")}
             </Link>
           )}
           <Link href="/#share" className="hover:text-accent">

@@ -9,6 +9,7 @@
     "petition": "Petitie",
     "share": "Delen",
     "testimonials": "Getuigenissen",
+    "googleReviews": "Google-recensies",
     "contact": "Contact"
   },
   "hero": {
@@ -61,12 +62,35 @@
     "copied": "Gekopieerd!"
   },
   "testimonials": {
-    "title": "Openbare getuigenissen",
+    "title": "Deel uw ervaring",
+    "subtitle": "Maakte u een gelijkaardige situatie mee in het asiel Veeweyde? Uw stem telt.",
+    "intro": "Schrijf uw ervaring vrij op. Elk getuigenis wordt nagelezen voor publicatie om beledigingen of persoonlijke aanvallen te vermijden. U ontvangt een bevestiging op het opgegeven e-mailadres.",
+    "formTitle": "Uw getuigenis",
+    "firstName": "Voornaam",
+    "lastName": "Achternaam",
+    "email": "E-mailadres",
+    "city": "Stad (optioneel)",
+    "text": "Uw ervaring",
+    "textHelp": "Beschrijf de feiten die u heeft meegemaakt. Vermijd het persoonlijk vernoemen van individuen.",
+    "consentRgpd": "Ik ga akkoord dat mijn gegevens uitsluitend voor de moderatie van dit getuigenis worden verwerkt, in overeenstemming met de AVG.",
+    "consentDisplay": "Ik ga akkoord dat mijn voornaam en stad openbaar worden weergegeven bij mijn getuigenis, zodra het is gevalideerd.",
+    "submit": "Mijn getuigenis versturen",
+    "submitting": "Bezig met verzenden…",
+    "success": "Dank u. Uw getuigenis is ontvangen en wordt na validatie gepubliceerd.",
+    "errorGeneric": "Er is iets misgegaan. Probeer het opnieuw.",
+    "errorRateLimit": "Te veel pogingen. Even geduld a.u.b.",
+    "listTitle": "Gepubliceerde getuigenissen",
+    "empty": "Wees de eerste om uw ervaring te delen.",
+    "noteTitle": "Toelichting bij moderatie",
+    "noteBody": "Getuigenissen worden nagelezen voor publicatie om beledigingen of persoonlijke aanvallen te vermijden. Alleen uw voornaam (en uw stad, als u daarmee instemde) wordt openbaar getoond. U kunt op elk moment de verwijdering van uw getuigenis aanvragen via contact@save-samy.be."
+  },
+  "googleReviews": {
+    "title": "Openbare Google-recensies",
     "subtitle": "Recensies die derden publiceerden op Google Maps over het asiel Veeweyde",
     "intro": "De onderstaande teksten werden openbaar gepubliceerd door hun auteurs op de Google Maps-pagina van het asiel Veeweyde. We nemen enkel de tekst over, met de voornaam en een directe link naar de oorspronkelijke recensie bij Google.",
     "openOriginal": "Bekijk de originele recensie op Google",
     "ratingLabel": "{rating, plural, one {# ster} other {# sterren}}",
-    "empty": "Er zijn momenteel geen gepubliceerde getuigenissen.",
+    "empty": "Er zijn momenteel geen gepubliceerde recensies.",
     "noteTitle": "Juridische toelichting",
     "noteBody": "Elke tekst is een kort citaat, openbaar gepubliceerd door de auteur op Google Maps, hier weergegeven ter informatie en verwijzend naar de oorspronkelijke bron. Geen profielfoto of volledige naam wordt weergegeven. Betrokkenen kunnen de verwijdering van hun citaat aanvragen via contact@save-samy.be."
   },
