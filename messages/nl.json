@@ -43,7 +43,7 @@
     "email": "E-mailadres",
     "city": "Stad (optioneel)",
     "comment": "Een woord voor Samy (optioneel)",
-    "consentNote": "Uw gegevens worden uitsluitend voor deze petitie gebruikt. Uw voornaam en stad verschijnen openbaar in de lijst van ondertekenaars. Details in ons <link>privacybeleid</link>.",
+    "consentNote": "Uw gegevens worden uitsluitend voor deze petitie gebruikt. Uw voornaam en stad verschijnen openbaar in de lijst van ondertekenaars.",
     "submit": "Ik teken",
     "submitting": "Bezig met verzenden…",
     "success": "Dank u. Uw handtekening is geregistreerd.",
