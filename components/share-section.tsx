@@ -5,7 +5,7 @@ export async function ShareSection() {
   const t = await getTranslations("share");
   const locale = await getLocale();
   const siteUrl =
-    process.env.NEXT_PUBLIC_SITE_URL ?? "https://sauvons-samy.be";
+    process.env.NEXT_PUBLIC_SITE_URL ?? "https://save-samy.be";
   const url = `${siteUrl}/${locale}`;
 
   return (

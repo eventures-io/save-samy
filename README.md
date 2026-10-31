@@ -101,7 +101,7 @@ Routes:
 
 - [ ] Lawyer reviewed Samy's-story text (first-person testimony only).
 - [ ] Lawyer reviewed the "why this matters" copy (no individuals named).
-- [ ] `contact@sauvons-samy.be` is a working inbox.
+- [ ] `contact@save-samy.be` is a working inbox.
 - [ ] GDPR data-handling flow (export + delete) is tested with a real email.
 - [ ] IP salt rotated from the dev default.
 - [ ] Robots indexing left as default until the lawyer greenlights going public.

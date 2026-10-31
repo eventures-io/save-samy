@@ -21,7 +21,7 @@ export function SiteFooter() {
           <Link href="/privacy" className="hover:text-accent">
             {t("privacy")}
           </Link>
-          <a href="mailto:contact@sauvons-samy.be" className="hover:text-accent">
+          <a href="mailto:contact@save-samy.be" className="hover:text-accent">
             {t("contact")}
           </a>
           <span className="opacity-70">{t("credits")}</span>

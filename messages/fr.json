@@ -72,7 +72,7 @@
     "hosting": "Hébergement",
     "hostingBody": "Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, USA.",
     "contact": "Contact",
-    "contactBody": "Pour toute question, droit de réponse ou demande RGPD : contact@sauvons-samy.be"
+    "contactBody": "Pour toute question, droit de réponse ou demande RGPD : contact@save-samy.be"
   },
   "privacy": {
     "title": "Politique de confidentialité",
@@ -84,7 +84,7 @@
     "retentionTitle": "Durée de conservation",
     "retentionBody": "Les signatures sont conservées jusqu'à la clôture de la pétition, puis supprimées dans un délai de 12 mois.",
     "rightsTitle": "Vos droits",
-    "rightsBody": "Vous pouvez à tout moment demander l'accès, la rectification ou la suppression de vos données en écrivant à contact@sauvons-samy.be.",
+    "rightsBody": "Vous pouvez à tout moment demander l'accès, la rectification ou la suppression de vos données en écrivant à contact@save-samy.be.",
     "analyticsTitle": "Statistiques",
     "analyticsBody": "Nous utilisons Plausible Analytics, un outil respectueux de la vie privée qui ne pose pas de cookies et n'identifie pas les visiteurs."
   }
