@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "title": "Red Samy — Een Belgische mechelaar verdient een gezin",
+    "description": "Samy, een jonge Belgische mechelaar, werd achtergelaten en wacht nu in een asiel. Teken de petitie en help verandering af te dwingen.",
+    "siteName": "Red Samy"
+  },
+  "nav": {
+    "story": "Zijn verhaal",
+    "petition": "Petitie",
+    "share": "Delen",
+    "contact": "Contact"
+  },
+  "hero": {
+    "kicker": "Zijn naam is Samy",
+    "title": "Een Belgische mechelaar, achtergelaten en nu vast in een asiel dat adoptanten weigert.",
+    "subtitle": "Samy werd vastgebonden aan een boom in een Belgisch bos gevonden. Nu wacht hij in een overheidsasiel. Een gezin wilde hem adopteren. Het antwoord was nee — met minachting.",
+    "cta": "Ik teken voor Samy",
+    "ctaSecondary": "Lees zijn verhaal"
+  },
+  "story": {
+    "sectionTitle": "Samy's verhaal",
+    "placeholder": "Zijn verhaal verschijnt hier binnenkort — bijgewerkt via de CMS."
+  },
+  "why": {
+    "sectionTitle": "Waarom deze website",
+    "intro": "Deze site documenteert een persoonlijke ervaring met adoptie, en geeft een stem aan iedereen die hetzelfde heeft meegemaakt.",
+    "point1Title": "Een dier wacht",
+    "point1Body": "Samy is een jonge mechelaar. Hij heeft een gezin nodig, nu, niet over zes maanden.",
+    "point2Title": "Een onbegrijpelijke weigering",
+    "point2Body": "Een serieuze adoptieaanvraag werd afgewezen zonder duidelijke uitleg, met een vijandige houding.",
+    "point3Title": "Een terugkerend patroon",
+    "point3Body": "De openbare Google Maps-recensies van dit asiel laten zien dat dit geen alleenstaand geval is. We bundelen deze stemmen.",
+    "disclaimer": "De informatie op deze site betreft een persoonlijk getuigenis en openbaar verifieerbare feiten. Er worden geen personen bij naam genoemd."
+  },
+  "petition": {
+    "sectionTitle": "Teken de petitie",
+    "intro": "Vraag de bevoegde autoriteiten om Samy's adoptiedossier te herzien en om transparantie over de praktijken van het asiel.",
+    "firstName": "Voornaam",
+    "lastName": "Achternaam",
+    "email": "E-mailadres",
+    "city": "Stad (optioneel)",
+    "comment": "Een woord voor Samy (optioneel)",
+    "consentRgpd": "Ik ga akkoord dat mijn gegevens uitsluitend voor deze petitie worden verwerkt, in overeenstemming met de AVG.",
+    "consentDisplay": "Ik ga akkoord dat mijn voornaam en stad openbaar worden getoond in de lijst van ondertekenaars.",
+    "submit": "Ik teken",
+    "submitting": "Bezig met verzenden…",
+    "success": "Dank u. Uw handtekening is geregistreerd.",
+    "errorGeneric": "Er is iets misgegaan. Probeer het opnieuw.",
+    "errorRateLimit": "Te veel pogingen. Even geduld a.u.b.",
+    "errorDuplicate": "Dit e-mailadres heeft de petitie al getekend.",
+    "counter": "{count, plural, =0 {Nog geen handtekeningen} one {# handtekening} other {# handtekeningen}}"
+  },
+  "share": {
+    "sectionTitle": "Vertel het verder",
+    "intro": "Elke keer dat je deelt vergroot de druk om iets te veranderen.",
+    "shareText": "Help Samy, een jonge Belgische mechelaar die werd achtergelaten en nu vastzit in een asiel dat adoptanten weigert. Teken de petitie:",
+    "shareOn": "Delen op",
+    "copyLink": "Link kopiëren",
+    "copied": "Gekopieerd!"
+  },
+  "footer": {
+    "tagline": "Een burgerinitiatief voor Samy en voor alle dieren die nog wachten.",
+    "legal": "Juridische vermeldingen",
+    "privacy": "Privacy",
+    "contact": "Contact",
+    "credits": "Vrijwillig gemaakt"
+  },
+  "legal": {
+    "title": "Juridische vermeldingen",
+    "editor": "Uitgever van de site",
+    "editorBody": "Burgerinitiatief zonder winstoogmerk. Contactgegevens van de uitgever zijn op aanvraag beschikbaar.",
+    "hosting": "Hosting",
+    "hostingBody": "Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, VS.",
+    "contact": "Contact",
+    "contactBody": "Voor vragen, recht van antwoord of AVG-verzoeken: contact@sauvons-samy.be"
+  },
+  "privacy": {
+    "title": "Privacybeleid",
+    "intro": "Deze site respecteert de Algemene Verordening Gegevensbescherming (AVG).",
+    "dataTitle": "Verzamelde gegevens",
+    "dataBody": "Voor de petitie: voornaam, achternaam, e-mailadres, en optioneel stad en commentaar. Niets anders wordt verzameld. We gebruiken geen tracking-cookies.",
+    "purposeTitle": "Doel",
+    "purposeBody": "Uw gegevens worden uitsluitend gebruikt om uw handtekening te tellen en, als u dat heeft toegestaan, om uw voornaam en stad openbaar te tonen. We verkopen niets, we delen niets.",
+    "retentionTitle": "Bewaartermijn",
+    "retentionBody": "Handtekeningen worden bewaard tot de sluiting van de petitie en vervolgens binnen 12 maanden verwijderd.",
+    "rightsTitle": "Uw rechten",
+    "rightsBody": "U kunt op elk moment toegang, rectificatie of verwijdering van uw gegevens aanvragen door te schrijven naar contact@sauvons-samy.be.",
+    "analyticsTitle": "Statistieken",
+    "analyticsBody": "We gebruiken Plausible Analytics, een privacyvriendelijk hulpmiddel dat geen cookies plaatst en bezoekers niet identificeert."
+  }
+}

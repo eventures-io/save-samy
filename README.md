@@ -1,36 +1,113 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Save-Samy
 
-## Getting Started
+Bilingual (FR/NL) advocacy website for Samy — a young Belgian malinois who was
+abandoned, tied to a tree in a forest, and is currently held in a government
+shelter that has refused serious adoption candidates.
 
-First, run the development server:
+The site collects petition signatures and will grow to document a pattern of
+mistreatment, help people file formal complaints, and reach the press.
+
+---
+
+## v1 scope
+
+- Landing page: hero, story (editable from Sanity), "why this matters", petition, share.
+- Bilingual FR/NL with a language switcher.
+- Petition form writing to Supabase, with GDPR consent, honeypot, IP rate-limit.
+- Public signature counter + first-name display (only if the signer consents).
+- Legal + privacy pages.
+- Deployable to Vercel.
+
+## v2 ideas (not yet built)
+
+- Public comments display (gated behind lawyer greenlight).
+- Press mentions carousel.
+- Pre-filled complaint template to the responsible minister (Walloon or Flemish
+  animal-welfare minister depending on shelter region).
+- Multi-step moderation workflow.
+
+---
+
+## Stack
+
+- Next.js 16 (App Router, React 19) + Tailwind 4.
+- `next-intl` for FR/NL routing.
+- **Sanity** (free US tier) for *editable site copy only*. **No personal data.**
+- **Supabase** (free, region: Frankfurt) for petition signatures. All personal
+  data stays in the EU.
+- Vercel for hosting.
+- Plausible for analytics (no cookies → no consent banner).
+
+---
+
+## Local setup
 
 ```bash
+# 1. install deps
+npm install
+
+# 2. copy env file
+cp .env.example .env.local
+# edit .env.local — leave Sanity/Supabase values blank for now, the site
+# will render with placeholder content.
+
+# 3. run
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# → http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Routes:
+- `/` → redirects to `/fr`
+- `/fr`, `/nl` → landing
+- `/fr/privacy`, `/nl/privacy` → privacy
+- `/fr/legal`, `/nl/legal` → legal mentions
+- `/studio` → embedded Sanity Studio (requires `NEXT_PUBLIC_SANITY_PROJECT_ID`)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Supabase (Frankfurt) setup
 
-## Learn More
+1. Create account → <https://supabase.com>
+2. **Create project** → region **West EU (Frankfurt)** (eu-central-1).
+3. In the SQL editor, paste the contents of `supabase/schema.sql` and run it.
+4. Copy project URL and service role key into `.env.local`:
+   - `NEXT_PUBLIC_SUPABASE_URL=https://xxxxxxxx.supabase.co`
+   - `SUPABASE_SERVICE_ROLE_KEY=...` (⚠ **server-only**, never commit)
+5. Generate a random salt for `IP_HASH_SALT` and set it.
+6. Restart `npm run dev`.
 
-To learn more about Next.js, take a look at the following resources:
+## Sanity setup
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Create account → <https://www.sanity.io/manage>
+2. Create a new project (any name). Note the **projectId**.
+3. In `.env.local`:
+   - `NEXT_PUBLIC_SANITY_PROJECT_ID=xxxxxxxx`
+   - `NEXT_PUBLIC_SANITY_DATASET=production`
+4. Visit `/studio` locally and sign in with the Sanity account. You can now
+   create a "Samy's Story" document (one per language).
+5. Add CORS origins in Sanity management for `http://localhost:3000` and your
+   production domain.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Vercel deploy
 
-## Deploy on Vercel
+1. `git init && git add . && git commit -m "initial"` and push to GitHub.
+2. Import the repo in Vercel.
+3. Set the same env vars in **Project → Settings → Environment Variables**.
+4. Deploy.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Legal checklist (before publishing claims)
+
+- [ ] Lawyer reviewed Samy's-story text (first-person testimony only).
+- [ ] Lawyer reviewed the "why this matters" copy (no individuals named).
+- [ ] `contact@sauvons-samy.be` is a working inbox.
+- [ ] GDPR data-handling flow (export + delete) is tested with a real email.
+- [ ] IP salt rotated from the dev default.
+- [ ] Robots indexing left as default until the lawyer greenlights going public.
+
+---
+
+## Attribution
+
+Site built as a civic/volunteer project.

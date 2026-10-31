@@ -1,0 +1,91 @@
+{
+  "meta": {
+    "title": "Sauvons Samy — Un malinois belge mérite une famille",
+    "description": "Samy, jeune malinois belge abandonné, attend sa famille. Signez la pétition et aidez à faire bouger les choses.",
+    "siteName": "Sauvons Samy"
+  },
+  "nav": {
+    "story": "Son histoire",
+    "petition": "Pétition",
+    "share": "Partager",
+    "contact": "Contact"
+  },
+  "hero": {
+    "kicker": "Son nom est Samy",
+    "title": "Un malinois belge, abandonné puis coincé dans un refuge qui refuse les adoptants.",
+    "subtitle": "Samy a été trouvé attaché à un arbre dans une forêt belge. Aujourd'hui il attend dans un refuge d'État. Une famille a voulu l'adopter. On lui a dit non — avec mépris.",
+    "cta": "Je signe pour Samy",
+    "ctaSecondary": "Lire son histoire"
+  },
+  "story": {
+    "sectionTitle": "L'histoire de Samy",
+    "placeholder": "Son histoire sera bientôt racontée ici — mise à jour depuis le CMS."
+  },
+  "why": {
+    "sectionTitle": "Pourquoi ce site",
+    "intro": "Ce site documente une expérience personnelle de tentative d'adoption, et donne la parole à toutes les personnes qui ont vécu la même chose.",
+    "point1Title": "Un animal attend",
+    "point1Body": "Samy est un jeune malinois. Il a besoin d'une famille, maintenant, pas dans six mois.",
+    "point2Title": "Un refus incompréhensible",
+    "point2Body": "Une candidature d'adoption sérieuse a été rejetée sans explication claire, avec une attitude hostile.",
+    "point3Title": "Un schéma qui se répète",
+    "point3Body": "Les avis publics Google Maps de ce refuge montrent que ce traitement n'est pas isolé. Nous rassemblons ces voix.",
+    "disclaimer": "Les informations publiées sur ce site relèvent d'un témoignage personnel et de faits publiquement vérifiables. Aucune personne n'est nommément mise en cause."
+  },
+  "petition": {
+    "sectionTitle": "Signez la pétition",
+    "intro": "Demandez aux autorités compétentes la révision du dossier d'adoption de Samy et une transparence sur les pratiques du refuge.",
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "email": "Adresse e-mail",
+    "city": "Ville (facultatif)",
+    "comment": "Un mot pour Samy (facultatif)",
+    "consentRgpd": "J'accepte que mes données soient traitées uniquement pour cette pétition, conformément au RGPD.",
+    "consentDisplay": "J'accepte que mon prénom et ma ville apparaissent publiquement dans la liste des signataires.",
+    "submit": "Je signe",
+    "submitting": "Envoi en cours…",
+    "success": "Merci. Votre signature a bien été enregistrée.",
+    "errorGeneric": "Une erreur est survenue. Merci de réessayer.",
+    "errorRateLimit": "Trop de tentatives. Merci de patienter un instant.",
+    "errorDuplicate": "Cette adresse e-mail a déjà signé la pétition.",
+    "counter": "{count, plural, =0 {Aucune signature pour l'instant} one {# signature} other {# signatures}}"
+  },
+  "share": {
+    "sectionTitle": "Faites passer le mot",
+    "intro": "Chaque partage augmente la pression pour faire bouger les choses.",
+    "shareText": "Aidez Samy, un jeune malinois belge abandonné et coincé dans un refuge qui refuse les adoptants. Signez la pétition :",
+    "shareOn": "Partager sur",
+    "copyLink": "Copier le lien",
+    "copied": "Copié !"
+  },
+  "footer": {
+    "tagline": "Un site citoyen pour Samy et pour tous les animaux encore en attente.",
+    "legal": "Mentions légales",
+    "privacy": "Vie privée",
+    "contact": "Contact",
+    "credits": "Site créé bénévolement"
+  },
+  "legal": {
+    "title": "Mentions légales",
+    "editor": "Éditeur du site",
+    "editorBody": "Site citoyen à but non lucratif. Les coordonnées de l'éditeur sont disponibles sur demande à l'adresse ci-dessous.",
+    "hosting": "Hébergement",
+    "hostingBody": "Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, USA.",
+    "contact": "Contact",
+    "contactBody": "Pour toute question, droit de réponse ou demande RGPD : contact@sauvons-samy.be"
+  },
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "intro": "Ce site respecte le Règlement Général sur la Protection des Données (RGPD).",
+    "dataTitle": "Données collectées",
+    "dataBody": "Pour la pétition : prénom, nom, adresse e-mail, et éventuellement ville et commentaire. Rien d'autre n'est collecté. Nous n'utilisons pas de cookies de suivi.",
+    "purposeTitle": "Finalité",
+    "purposeBody": "Vos données servent uniquement à comptabiliser votre signature et, si vous l'avez accepté, à afficher publiquement votre prénom et votre ville. Nous ne vendons rien, nous ne partageons rien.",
+    "retentionTitle": "Durée de conservation",
+    "retentionBody": "Les signatures sont conservées jusqu'à la clôture de la pétition, puis supprimées dans un délai de 12 mois.",
+    "rightsTitle": "Vos droits",
+    "rightsBody": "Vous pouvez à tout moment demander l'accès, la rectification ou la suppression de vos données en écrivant à contact@sauvons-samy.be.",
+    "analyticsTitle": "Statistiques",
+    "analyticsBody": "Nous utilisons Plausible Analytics, un outil respectueux de la vie privée qui ne pose pas de cookies et n'identifie pas les visiteurs."
+  }
+}
