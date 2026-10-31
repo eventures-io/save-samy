@@ -37,6 +37,13 @@ yarn-error.log*
 # local scratch
 /tmp/
 
+# never commit private research material
+/docs/private/
+
+# sanity studio build artifacts
+/.sanity/
+/dist/
+
 # vercel
 .vercel
 

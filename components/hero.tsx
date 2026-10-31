@@ -33,9 +33,9 @@ export function Hero() {
             </a>
           </div>
         </div>
-        <div className="relative aspect-[4/5] rounded-3xl overflow-hidden bg-card shadow-xl ring-1 ring-border">
+        <div className="relative aspect-square rounded-3xl overflow-hidden bg-card shadow-xl ring-1 ring-border">
           <Image
-            src="/samy-placeholder.svg"
+            src="/samy.jpeg"
             alt="Samy"
             fill
             priority
