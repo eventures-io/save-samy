@@ -44,25 +44,7 @@ export function PetitionForm() {
         </label>
       </div>
 
-      <label className="flex items-start gap-3 text-sm">
-        <input
-          name="consentRgpd"
-          type="checkbox"
-          required
-          value="true"
-          className="mt-1 h-4 w-4 rounded border-border text-accent focus:ring-accent/40"
-        />
-        <span>{t("consentRgpd")}</span>
-      </label>
-      <label className="flex items-start gap-3 text-sm">
-        <input
-          name="consentDisplay"
-          type="checkbox"
-          value="true"
-          className="mt-1 h-4 w-4 rounded border-border text-accent focus:ring-accent/40"
-        />
-        <span>{t("consentDisplay")}</span>
-      </label>
+      <p className="text-sm text-muted leading-relaxed">{t("consentNote")}</p>
 
       <SubmitButton />
 

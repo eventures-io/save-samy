@@ -12,10 +12,6 @@ const SignSchema = z.object({
   email: z.string().trim().toLowerCase().email().max(150),
   city: z.string().trim().max(80).optional().or(z.literal("")),
   comment: z.string().trim().max(1000).optional().or(z.literal("")),
-  consentRgpd: z.coerce.boolean().refine((v) => v === true, {
-    message: "consent_rgpd_required",
-  }),
-  consentDisplay: z.coerce.boolean().optional(),
   // honeypot — must be empty
   website: z.string().max(0).optional().or(z.literal("")),
 });
@@ -58,8 +54,6 @@ export async function signPetition(
     email: formData.get("email"),
     city: formData.get("city") ?? "",
     comment: formData.get("comment") ?? "",
-    consentRgpd: formData.get("consentRgpd"),
-    consentDisplay: formData.get("consentDisplay"),
     website: formData.get("website") ?? "",
   });
 
@@ -93,8 +87,8 @@ export async function signPetition(
     email: parsed.data.email,
     city: parsed.data.city || null,
     comment: parsed.data.comment || null,
-    consent_rgpd: parsed.data.consentRgpd,
-    consent_display: parsed.data.consentDisplay ?? false,
+    consent_rgpd: true,
+    consent_display: true,
     locale,
     ip_hash: ipHash,
     user_agent: hdrs.get("user-agent")?.slice(0, 300) ?? null,
