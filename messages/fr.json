@@ -43,7 +43,7 @@
     "email": "Adresse e-mail",
     "city": "Ville (facultatif)",
     "comment": "Un mot pour Samy (facultatif)",
-    "consentNote": "En signant, vos données ne sont utilisées que pour cette pétition. Votre prénom et votre ville apparaîtront publiquement dans la liste des signataires. Détails dans notre <link>politique de confidentialité</link>.",
+    "consentNote": "Vos données ne sont utilisées que pour cette pétition. Votre prénom et votre ville apparaîtront publiquement dans la liste des signataires. Détails dans notre <link>politique de confidentialité</link>.",
     "submit": "Je signe",
     "submitting": "Envoi en cours…",
     "success": "Merci. Votre signature a bien été enregistrée.",
