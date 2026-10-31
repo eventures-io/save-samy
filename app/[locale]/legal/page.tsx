@@ -15,7 +15,6 @@ export default async function LegalPage({
         {t("title")}
       </h1>
       <Section title={t("editor")} body={t("editorBody")} />
-      <Section title={t("hosting")} body={t("hostingBody")} />
       <Section title={t("contact")} body={t("contactBody")} />
     </article>
   );
