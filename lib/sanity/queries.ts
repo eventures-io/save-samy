@@ -21,3 +21,34 @@ export async function getStory(locale: Locale): Promise<Story | null> {
     return null;
   }
 }
+
+export type Review = {
+  _id: string;
+  authorFirstName: string;
+  rating: number;
+  text: string;
+  language: "fr" | "nl" | "en";
+  originalDateLabel?: string;
+  capturedAt?: string;
+  sourceUrl: string;
+};
+
+export async function getReviews(
+  filter?: { language?: "fr" | "nl" | "en" },
+): Promise<Review[]> {
+  if (!sanityClient) return [];
+  try {
+    const query = `*[_type == "review" && isPublished == true ${
+      filter?.language ? "&& language == $language" : ""
+    }] | order(capturedAt desc, _createdAt desc){
+      _id, authorFirstName, rating, text, language, originalDateLabel, capturedAt, sourceUrl
+    }`;
+    return await sanityClient.fetch<Review[]>(
+      query,
+      filter ?? {},
+      { next: { revalidate: 300, tags: ["reviews"] } },
+    );
+  } catch {
+    return [];
+  }
+}

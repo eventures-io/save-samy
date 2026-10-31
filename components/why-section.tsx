@@ -32,6 +32,16 @@ export function WhySection() {
             </article>
           ))}
         </div>
+        {process.env.NEXT_PUBLIC_VEEWEYDE_REVIEWS_URL && (
+          <a
+            href={process.env.NEXT_PUBLIC_VEEWEYDE_REVIEWS_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-8 inline-flex items-center gap-2 text-accent hover:text-accent-dark font-medium underline underline-offset-4"
+          >
+            {t("reviewsLink")} →
+          </a>
+        )}
         <p className="mt-10 text-sm text-muted italic max-w-3xl">
           {t("disclaimer")}
         </p>

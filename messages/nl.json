@@ -8,6 +8,7 @@
     "story": "Zijn verhaal",
     "petition": "Petitie",
     "share": "Delen",
+    "testimonials": "Getuigenissen",
     "contact": "Contact"
   },
   "hero": {
@@ -23,14 +24,15 @@
   },
   "why": {
     "sectionTitle": "Waarom deze website",
-    "intro": "Deze site documenteert een persoonlijke ervaring met adoptie, en geeft een stem aan iedereen die hetzelfde heeft meegemaakt.",
+    "intro": "Samy verblijft momenteel in het asiel Veeweyde in Anderlecht. Deze site documenteert onze persoonlijke ervaring met een adoptieaanvraag bij dit asiel en geeft een stem aan iedereen die hetzelfde heeft meegemaakt.",
     "point1Title": "Een dier wacht",
     "point1Body": "Samy is een jonge mechelaar. Hij heeft een gezin nodig, nu, niet over zes maanden.",
     "point2Title": "Een onbegrijpelijke weigering",
-    "point2Body": "Een serieuze adoptieaanvraag werd afgewezen zonder duidelijke uitleg, met een vijandige houding.",
-    "point3Title": "Een terugkerend patroon",
-    "point3Body": "De openbare Google Maps-recensies van dit asiel laten zien dat dit geen alleenstaand geval is. We bundelen deze stemmen.",
-    "disclaimer": "De informatie op deze site betreft een persoonlijk getuigenis en openbaar verifieerbare feiten. Er worden geen personen bij naam genoemd."
+    "point2Body": "Onze serieuze adoptieaanvraag bij het asiel Veeweyde werd afgewezen zonder duidelijke uitleg, met een vijandige houding.",
+    "point3Title": "Wij staan niet alleen",
+    "point3Body": "De openbare Google Maps-recensies van het asiel Veeweyde tonen talrijke vergelijkbare getuigenissen. We bundelen deze stemmen.",
+    "disclaimer": "De informatie op deze site betreft een persoonlijk getuigenis en openbaar verifieerbare feiten (Google Maps-recensies gepubliceerd door derden). Er wordt geen natuurlijke persoon bij naam genoemd.",
+    "reviewsLink": "Bekijk de Google-recensies van asiel Veeweyde"
   },
   "petition": {
     "sectionTitle": "Teken de petitie",
@@ -57,6 +59,16 @@
     "shareOn": "Delen op",
     "copyLink": "Link kopiëren",
     "copied": "Gekopieerd!"
+  },
+  "testimonials": {
+    "title": "Openbare getuigenissen",
+    "subtitle": "Recensies die derden publiceerden op Google Maps over het asiel Veeweyde",
+    "intro": "De onderstaande teksten werden openbaar gepubliceerd door hun auteurs op de Google Maps-pagina van het asiel Veeweyde. We nemen enkel de tekst over, met de voornaam en een directe link naar de oorspronkelijke recensie bij Google.",
+    "openOriginal": "Bekijk de originele recensie op Google",
+    "ratingLabel": "{rating, plural, one {# ster} other {# sterren}}",
+    "empty": "Er zijn momenteel geen gepubliceerde getuigenissen.",
+    "noteTitle": "Juridische toelichting",
+    "noteBody": "Elke tekst is een kort citaat, openbaar gepubliceerd door de auteur op Google Maps, hier weergegeven ter informatie en verwijzend naar de oorspronkelijke bron. Geen profielfoto of volledige naam wordt weergegeven. Betrokkenen kunnen de verwijdering van hun citaat aanvragen via contact@save-samy.be."
   },
   "footer": {
     "tagline": "Een burgerinitiatief voor Samy en voor alle dieren die nog wachten.",
