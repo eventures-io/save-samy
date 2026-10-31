@@ -3,6 +3,7 @@
 import { useActionState, useId, useRef, useEffect } from "react";
 import { useTranslations } from "next-intl";
 import { useFormStatus } from "react-dom";
+import { Link } from "@/i18n/navigation";
 import { signPetition, type SignState } from "@/lib/petition/actions";
 
 const initial: SignState = { status: "idle" };
@@ -44,7 +45,18 @@ export function PetitionForm() {
         </label>
       </div>
 
-      <p className="text-sm text-muted leading-relaxed">{t("consentNote")}</p>
+      <p className="text-sm text-muted leading-relaxed">
+        {t.rich("consentNote", {
+          link: (chunks) => (
+            <Link
+              href="/privacy"
+              className="underline underline-offset-2 hover:text-accent"
+            >
+              {chunks}
+            </Link>
+          ),
+        })}
+      </p>
 
       <SubmitButton />
 
