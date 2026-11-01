@@ -1,6 +1,7 @@
 import { getLocale, getTranslations } from "next-intl/server";
 import { PortableText } from "@portabletext/react";
 import { getStory } from "@/lib/sanity/queries";
+import { storyPortableTextComponents } from "./portable-text-components";
 
 export async function StorySection() {
   const t = await getTranslations("story");
@@ -13,11 +14,14 @@ export async function StorySection() {
         <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight mb-8">
           {t("sectionTitle")}
         </h2>
-        <div className="prose-samy text-lg leading-relaxed text-foreground/90">
+        <div className="text-foreground/90">
           {story?.body ? (
-            <PortableText value={story.body} />
+            <PortableText
+              value={story.body}
+              components={storyPortableTextComponents}
+            />
           ) : (
-            <p className="text-muted italic">{t("placeholder")}</p>
+            <p className="text-lg text-muted italic">{t("placeholder")}</p>
           )}
         </div>
       </div>
