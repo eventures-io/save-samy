@@ -6,24 +6,24 @@ export const storyPortableTextComponents: PortableTextComponents = {
       <p className="text-lg leading-relaxed mb-4 last:mb-0">{children}</p>
     ),
     h1: ({ children }) => (
-      <h2 className="text-2xl sm:text-3xl font-semibold tracking-tight mt-12 mb-4 text-foreground">
+      <h1 className="text-3xl sm:text-4xl font-semibold tracking-tight mt-12 mb-4 text-foreground">
+        {children}
+      </h1>
+    ),
+    h2: ({ children }) => (
+      <h2 className="text-2xl sm:text-3xl font-semibold tracking-tight mt-10 mb-3 text-foreground">
         {children}
       </h2>
     ),
-    h2: ({ children }) => (
-      <h3 className="text-xl sm:text-2xl font-semibold tracking-tight mt-10 mb-3 text-foreground">
+    h3: ({ children }) => (
+      <h3 className="text-xl sm:text-2xl font-semibold mt-8 mb-2 text-foreground">
         {children}
       </h3>
     ),
-    h3: ({ children }) => (
-      <h4 className="text-lg sm:text-xl font-semibold mt-8 mb-2 text-foreground">
+    h4: ({ children }) => (
+      <h4 className="text-lg sm:text-xl font-semibold mt-6 mb-2 text-foreground">
         {children}
       </h4>
-    ),
-    h4: ({ children }) => (
-      <h5 className="text-base font-semibold mt-6 mb-2 text-foreground">
-        {children}
-      </h5>
     ),
     blockquote: ({ children }) => (
       <blockquote className="border-l-4 border-accent/40 pl-4 my-6 italic text-muted">
