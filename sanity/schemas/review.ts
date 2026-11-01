@@ -84,6 +84,13 @@ export const reviewType = defineType({
       type: "boolean",
       initialValue: true,
     }),
+    defineField({
+      name: "displayOrder",
+      title: "Display order",
+      description:
+        "Lower numbers appear first. Leave blank for auto-sort by capture date.",
+      type: "number",
+    }),
   ],
   orderings: [
     {

@@ -40,7 +40,7 @@ export async function getReviews(
   try {
     const query = `*[_type == "review" && isPublished == true ${
       filter?.language ? "&& language == $language" : ""
-    }] | order(capturedAt desc, _createdAt asc){
+    }] | order(coalesce(displayOrder, 9999) asc, capturedAt desc, _createdAt asc){
       _id, authorFirstName, rating, text, language, originalDateLabel, capturedAt, sourceUrl
     }`;
     return await sanityClient.fetch<Review[]>(
