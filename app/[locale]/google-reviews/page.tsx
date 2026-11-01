@@ -52,7 +52,6 @@ export default async function GoogleReviewsPage({
       )}
 
       <aside className="mt-16 bg-card/70 border border-border rounded-2xl p-6">
-        <h2 className="font-semibold mb-2">{t("noteTitle")}</h2>
         <p className="text-sm text-muted leading-relaxed">{t("noteBody")}</p>
       </aside>
     </article>

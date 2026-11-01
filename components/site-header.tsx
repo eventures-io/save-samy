@@ -16,7 +16,7 @@ export function SiteHeader() {
           />
           <span>{tMeta("siteName")}</span>
         </Link>
-        <nav className="hidden sm:flex items-center gap-6 text-sm">
+        <nav className="hidden sm:flex items-center gap-6 text-base font-medium">
           <Link href="/#story" className="hover:text-accent">
             {t("story")}
           </Link>

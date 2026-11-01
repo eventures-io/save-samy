@@ -100,8 +100,7 @@
     "openOriginal": "Voir l'avis original sur Google",
     "ratingLabel": "{rating, plural, one {# étoile} other {# étoiles}}",
     "empty": "Aucun avis n'est publié pour le moment.",
-    "noteTitle": "Note légale",
-    "noteBody": "Chaque extrait est une citation courte, publiée sur Google Maps par son auteur, reproduite ici à des fins d'information et renvoyant à sa source originale. Aucun avatar ni nom complet n'est reproduit. Toute personne concernée peut demander le retrait de son extrait en écrivant à contact@save-samy.be."
+    "noteBody": "Chaque extrait est une citation courte, publiée sur Google Maps par son auteur, reproduite ici à des fins d'information et renvoyant à sa source originale. Toute personne concernée peut demander le retrait de son extrait en écrivant à contact@save-samy.be."
   },
   "footer": {
     "tagline": "Un collectif citoyen et bienveillant pour Samy et pour tous les chiens anonymes qui attendent une vraie chance dans les refuges de Belgique.",

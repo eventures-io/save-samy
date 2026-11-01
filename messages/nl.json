@@ -100,8 +100,7 @@
     "openOriginal": "Bekijk de originele recensie op Google",
     "ratingLabel": "{rating, plural, one {# ster} other {# sterren}}",
     "empty": "Er zijn momenteel geen gepubliceerde recensies.",
-    "noteTitle": "Juridische toelichting",
-    "noteBody": "Elke tekst is een kort citaat, openbaar gepubliceerd door de auteur op Google Maps, hier weergegeven ter informatie en verwijzend naar de oorspronkelijke bron. Geen profielfoto of volledige naam wordt weergegeven. Betrokkenen kunnen de verwijdering van hun citaat aanvragen via contact@save-samy.be."
+    "noteBody": "Elke tekst is een kort citaat, openbaar gepubliceerd door de auteur op Google Maps, hier weergegeven ter informatie en verwijzend naar de oorspronkelijke bron. Betrokkenen kunnen de verwijdering van hun citaat aanvragen via contact@save-samy.be."
   },
   "footer": {
     "tagline": "Een vriendelijk burgercollectief voor Samy en voor alle anonieme honden die in de Belgische asielen op een echte kans wachten.",
