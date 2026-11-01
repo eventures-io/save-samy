@@ -18,21 +18,55 @@ export function PetitionForm() {
   }, [state.status]);
 
   return (
-    <form ref={formRef} action={formAction} className="flex flex-col gap-4">
-      <Field name="firstName" label={t("firstName")} required uid={uid} autoComplete="given-name" />
-      <Field name="lastName" label={t("lastName")} required uid={uid} autoComplete="family-name" />
-      <Field name="email" label={t("email")} required type="email" uid={uid} autoComplete="email" />
-      <Field name="city" label={t("city")} uid={uid} autoComplete="address-level2" />
+    <form ref={formRef} action={formAction} className="flex flex-col gap-5">
+      <div className="grid grid-cols-2 gap-4">
+        <Field
+          name="firstName"
+          label={t("firstName")}
+          placeholder={t("firstNamePlaceholder")}
+          required
+          uid={uid}
+          autoComplete="given-name"
+        />
+        <Field
+          name="lastName"
+          label={t("lastName")}
+          placeholder={t("lastNamePlaceholder")}
+          required
+          uid={uid}
+          autoComplete="family-name"
+        />
+      </div>
+      <Field
+        name="email"
+        label={t("email")}
+        placeholder={t("emailPlaceholder")}
+        required
+        type="email"
+        uid={uid}
+        autoComplete="email"
+      />
+      <Field
+        name="city"
+        label={t("city")}
+        placeholder={t("cityPlaceholder")}
+        optionalLabel={t("optionalLabel")}
+        uid={uid}
+        autoComplete="address-level2"
+      />
       <div>
-        <label htmlFor={`${uid}-comment`} className="text-sm font-medium block mb-1">
-          {t("comment")}
-        </label>
+        <Label
+          htmlFor={`${uid}-comment`}
+          label={t("comment")}
+          optionalLabel={t("optionalLabel")}
+        />
         <textarea
           id={`${uid}-comment`}
           name="comment"
-          rows={3}
+          rows={4}
           maxLength={1000}
-          className="w-full rounded-xl border border-border bg-background px-3 py-2 focus:outline-none focus:ring-2 focus:ring-accent/40"
+          placeholder={t("commentPlaceholder")}
+          className="w-full rounded-xl border border-border bg-background px-4 py-3 placeholder:text-muted/70 focus:outline-none focus:ring-2 focus:ring-accent/40"
         />
       </div>
 
@@ -49,12 +83,18 @@ export function PetitionForm() {
       <SubmitButton />
 
       {state.status === "success" && (
-        <p role="status" className="text-sm text-green-700 bg-green-50 border border-green-200 rounded-lg px-3 py-2">
+        <p
+          role="status"
+          className="text-sm text-green-700 bg-green-50 border border-green-200 rounded-lg px-3 py-2"
+        >
           {state.message}
         </p>
       )}
       {state.status === "error" && (
-        <p role="alert" className="text-sm text-red-700 bg-red-50 border border-red-200 rounded-lg px-3 py-2">
+        <p
+          role="alert"
+          className="text-sm text-red-700 bg-red-50 border border-red-200 rounded-lg px-3 py-2"
+        >
           {state.message}
         </p>
       )}
@@ -62,35 +102,70 @@ export function PetitionForm() {
   );
 }
 
+function Label({
+  htmlFor,
+  label,
+  required = false,
+  optionalLabel,
+}: {
+  htmlFor: string;
+  label: string;
+  required?: boolean;
+  optionalLabel?: string;
+}) {
+  return (
+    <label
+      htmlFor={htmlFor}
+      className="text-xs font-semibold uppercase tracking-widest block mb-2"
+    >
+      {label}
+      {required && <span className="text-accent"> *</span>}
+      {!required && optionalLabel && (
+        <span className="font-normal normal-case text-muted">
+          {" "}
+          ({optionalLabel})
+        </span>
+      )}
+    </label>
+  );
+}
+
 function Field({
   name,
   label,
+  placeholder,
   type = "text",
   required = false,
   uid,
   autoComplete,
+  optionalLabel,
 }: {
   name: string;
   label: string;
+  placeholder?: string;
   type?: string;
   required?: boolean;
   uid: string;
   autoComplete?: string;
+  optionalLabel?: string;
 }) {
   const id = `${uid}-${name}`;
   return (
     <div>
-      <label htmlFor={id} className="text-sm font-medium block mb-1">
-        {label}
-        {required && <span className="text-accent"> *</span>}
-      </label>
+      <Label
+        htmlFor={id}
+        label={label}
+        required={required}
+        optionalLabel={optionalLabel}
+      />
       <input
         id={id}
         name={name}
         type={type}
         required={required}
         autoComplete={autoComplete}
-        className="w-full rounded-xl border border-border bg-background px-3 py-2 focus:outline-none focus:ring-2 focus:ring-accent/40"
+        placeholder={placeholder}
+        className="w-full rounded-xl border border-border bg-background px-4 py-3 placeholder:text-muted/70 focus:outline-none focus:ring-2 focus:ring-accent/40"
       />
     </div>
   );
@@ -103,7 +178,7 @@ function SubmitButton() {
     <button
       type="submit"
       disabled={pending}
-      className="mt-2 h-12 rounded-full bg-accent text-white font-medium shadow-sm hover:bg-accent-dark transition-colors disabled:opacity-60 disabled:cursor-not-allowed"
+      className="mt-2 h-14 rounded-full bg-accent text-white font-semibold uppercase tracking-wide shadow-sm hover:bg-accent-dark transition-colors disabled:opacity-60 disabled:cursor-not-allowed"
     >
       {pending ? t("submitting") : t("submit")}
     </button>

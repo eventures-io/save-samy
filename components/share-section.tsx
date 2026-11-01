@@ -9,7 +9,7 @@ export async function ShareSection() {
   const url = `${siteUrl}/${locale}`;
 
   return (
-    <section id="share" className="py-20 bg-card/50 border-t border-border">
+    <section id="share" className="pt-20 pb-44 -mb-24 bg-card/50 border-t border-border">
       <div className="mx-auto max-w-3xl px-4 sm:px-6 text-center">
         <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight mb-4">
           {t("sectionTitle")}

@@ -7,7 +7,6 @@
   "nav": {
     "story": "Zijn verhaal",
     "petition": "Petitie",
-    "petitionPage": "Tekst van de petitie",
     "share": "Delen",
     "testimonials": "Getuigenissen",
     "googleReviews": "Google-recensies",
@@ -33,25 +32,35 @@
     "point2Body": "Onze serieuze adoptieaanvraag bij het asiel Veeweyde werd afgewezen zonder duidelijke uitleg, met een vijandige houding.",
     "point3Title": "Wij staan niet alleen",
     "point3Body": "De openbare Google Maps-recensies van het asiel Veeweyde tonen talrijke vergelijkbare getuigenissen. We bundelen deze stemmen.",
-    "disclaimer": "De informatie op deze site betreft een persoonlijk getuigenis en openbaar verifieerbare feiten (Google Maps-recensies gepubliceerd door derden). Er wordt geen natuurlijke persoon bij naam genoemd.",
     "reviewsLink": "Bekijk de Google-recensies van asiel Veeweyde"
   },
   "petition": {
-    "sectionTitle": "Teken de petitie",
-    "intro": "Vraag de bevoegde autoriteiten om Samy's adoptiedossier te herzien en om transparantie over de praktijken van het asiel.",
+    "kicker": "Burgeractie",
+    "sectionTitle": "Teken de officiële petitie",
+    "intro": "Vraag de bevoegde autoriteiten en de raad van bestuur van het asiel om een onafhankelijke herziening van Samy's dossier, evenals een strikt transparantiekader voor adoptieweigeringen in België.",
+    "demand1": "Onafhankelijke herbeoordeling van Samy's profiel door een erkend extern gedragsdeskundige.",
+    "demand2": "Schriftelijke en traceerbare motivering van elke weigering die aan kandidaat-adoptanten wordt meegedeeld.",
+    "demand3": "Stop met overhaaste plaatsingen zonder gefaseerd aanpassingsprotocol.",
     "firstName": "Voornaam",
+    "firstNamePlaceholder": "Bv: Alexander",
     "lastName": "Achternaam",
+    "lastNamePlaceholder": "Bv: Peeters",
     "email": "E-mailadres",
-    "city": "Stad (optioneel)",
-    "comment": "Een woord voor Samy (optioneel)",
-    "consentNote": "Uw gegevens worden uitsluitend voor deze petitie gebruikt. Uw voornaam en stad verschijnen openbaar in de lijst van ondertekenaars.",
-    "submit": "Ik teken",
+    "emailPlaceholder": "uw.email@voorbeeld.be",
+    "city": "Stad / Gemeente",
+    "cityPlaceholder": "Bv: Brussel, Antwerpen, Gent…",
+    "comment": "Een woord voor Samy",
+    "commentPlaceholder": "Deel uw steun of uw eigen adoptie-ervaring…",
+    "optionalLabel": "optioneel",
+    "consentNote": "Uw gegevens worden uitsluitend gebruikt voor dit burgerinitiatief. Uw voornaam en gemeente verschijnen op de lijst die aan de toezichthoudende instanties wordt overhandigd.",
+    "submit": "Ik teken de petitie",
     "submitting": "Bezig met verzenden…",
     "success": "Dank u. Uw handtekening is geregistreerd.",
     "errorGeneric": "Er is iets misgegaan. Probeer het opnieuw.",
     "errorRateLimit": "Te veel pogingen. Even geduld a.u.b.",
     "errorDuplicate": "Dit e-mailadres heeft de petitie al getekend.",
-    "counter": "{count, plural, =0 {Nog geen handtekeningen} one {# handtekening} other {# handtekeningen}}"
+    "counterLabel": "Betrokken ondertekenaars",
+    "counterGoal": "Doel: {goal} handtekeningen"
   },
   "share": {
     "sectionTitle": "Vertel het verder",
@@ -60,16 +69,6 @@
     "shareOn": "Delen op",
     "copyLink": "Link kopiëren",
     "copied": "Gekopieerd!"
-  },
-  "petitionPage": {
-    "metaTitle": "Petitie — Voor transparante adopties bij Veeweyde",
-    "metaDescription": "Volledige tekst van de petitie gericht aan Veeweyde en de Minister voor Dierenwelzijn.",
-    "addresseesLabel": "Ter attentie van",
-    "readOnSite": "Lees de petitie",
-    "signOnline": "Teken online",
-    "print": "Deze pagina afdrukken",
-    "empty": "De tekst van de petitie wordt binnenkort gepubliceerd.",
-    "backToHome": "Terug naar de startpagina"
   },
   "testimonials": {
     "title": "Deel uw ervaring",

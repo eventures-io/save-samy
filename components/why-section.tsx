@@ -42,9 +42,6 @@ export function WhySection() {
             {t("reviewsLink")} →
           </a>
         )}
-        <p className="mt-10 text-sm text-muted italic max-w-3xl">
-          {t("disclaimer")}
-        </p>
       </div>
     </section>
   );

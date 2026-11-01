@@ -20,17 +20,15 @@ export function SiteHeader() {
           <Link href="/#story" className="hover:text-accent">
             {t("story")}
           </Link>
-          <Link href="/petition" className="hover:text-accent">
+          <Link href="/#petition" className="hover:text-accent">
             {t("petition")}
           </Link>
           <Link href="/testimonials" className="hover:text-accent">
             {t("testimonials")}
           </Link>
-          {process.env.NEXT_PUBLIC_SHOW_GOOGLE_REVIEWS === "1" && (
-            <Link href="/google-reviews" className="hover:text-accent">
-              {t("googleReviews")}
-            </Link>
-          )}
+          <Link href="/google-reviews" className="hover:text-accent">
+            {t("googleReviews")}
+          </Link>
           <Link href="/#share" className="hover:text-accent">
             {t("share")}
           </Link>

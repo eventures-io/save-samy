@@ -5,9 +5,9 @@ export function Hero() {
   const t = useTranslations("hero");
 
   return (
-    <section className="relative overflow-hidden">
+    <section className="relative overflow-hidden min-h-[calc(100svh-4rem)] flex items-center">
       <div className="absolute inset-0 -z-10 bg-gradient-to-b from-stone-200 via-background to-background" />
-      <div className="mx-auto max-w-6xl px-4 sm:px-6 pt-16 pb-20 grid gap-10 md:grid-cols-2 md:items-center">
+      <div className="mx-auto max-w-6xl w-full px-4 sm:px-6 py-16 grid gap-10 md:grid-cols-2 md:items-center">
         <div>
           <p className="text-sm uppercase tracking-widest text-accent font-semibold mb-4">
             {t("kicker")}

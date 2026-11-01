@@ -7,7 +7,6 @@
   "nav": {
     "story": "Son histoire",
     "petition": "Pétition",
-    "petitionPage": "Texte de la pétition",
     "share": "Partager",
     "testimonials": "Témoignages",
     "googleReviews": "Avis Google",
@@ -33,25 +32,35 @@
     "point2Body": "Notre candidature d'adoption sérieuse auprès du refuge Veeweyde a été rejetée sans explication claire, avec une attitude hostile.",
     "point3Title": "Nous ne sommes pas seuls",
     "point3Body": "Les avis publics Google Maps du refuge Veeweyde font état de nombreux témoignages comparables. Nous rassemblons ces voix.",
-    "disclaimer": "Les informations publiées sur ce site relèvent d'un témoignage personnel et de faits publiquement vérifiables (avis Google Maps publiés par des tiers). Aucune personne physique n'est nommément mise en cause.",
     "reviewsLink": "Voir les avis Google du refuge Veeweyde"
   },
   "petition": {
-    "sectionTitle": "Signez la pétition",
-    "intro": "Demandez aux autorités compétentes la révision du dossier d'adoption de Samy et une transparence sur les pratiques du refuge.",
+    "kicker": "Action citoyenne",
+    "sectionTitle": "Signez la pétition officielle",
+    "intro": "Demandez aux autorités compétentes et au conseil d'administration du refuge la révision impartiale du dossier de Samy, ainsi qu'une charte de transparence stricte sur les motifs de refus d'adoption en Belgique.",
+    "demand1": "Réévaluation indépendante du profil de Samy par un comportementaliste externe agréé.",
+    "demand2": "Motivation écrite et traçable de tout refus notifié aux candidats adoptants.",
+    "demand3": "Arrêt des placements précipités sans protocole d'adaptation progressif.",
     "firstName": "Prénom",
+    "firstNamePlaceholder": "Ex: Alexandre",
     "lastName": "Nom",
+    "lastNamePlaceholder": "Ex: Dupont",
     "email": "Adresse e-mail",
-    "city": "Ville (facultatif)",
-    "comment": "Un mot pour Samy (facultatif)",
-    "consentNote": "Vos données ne sont utilisées que pour cette pétition. Votre prénom et votre ville apparaîtront publiquement dans la liste des signataires.",
-    "submit": "Je signe",
+    "emailPlaceholder": "votre.email@exemple.be",
+    "city": "Ville / Commune",
+    "cityPlaceholder": "Ex: Bruxelles, Liège, Namur…",
+    "comment": "Un mot pour Samy",
+    "commentPlaceholder": "Partagez votre soutien ou votre propre expérience d'adoption…",
+    "optionalLabel": "facultatif",
+    "consentNote": "Vos données sont strictement utilisées pour cette démarche citoyenne. Votre prénom et commune apparaîtront sur la liste remise aux instances de tutelle.",
+    "submit": "Je signe la pétition",
     "submitting": "Envoi en cours…",
     "success": "Merci. Votre signature a bien été enregistrée.",
     "errorGeneric": "Une erreur est survenue. Merci de réessayer.",
     "errorRateLimit": "Trop de tentatives. Merci de patienter un instant.",
     "errorDuplicate": "Cette adresse e-mail a déjà signé la pétition.",
-    "counter": "{count, plural, =0 {Aucune signature pour l'instant} one {# signature} other {# signatures}}"
+    "counterLabel": "Signataires engagés",
+    "counterGoal": "Objectif visé : {goal} signatures"
   },
   "share": {
     "sectionTitle": "Faites passer le mot",
@@ -60,16 +69,6 @@
     "shareOn": "Partager sur",
     "copyLink": "Copier le lien",
     "copied": "Copié !"
-  },
-  "petitionPage": {
-    "metaTitle": "Pétition — Pour la transparence des adoptions chez Veeweyde",
-    "metaDescription": "Texte intégral de la pétition adressée à Veeweyde et au Ministère du Bien-être animal.",
-    "addresseesLabel": "À l'attention de",
-    "readOnSite": "Lire la pétition",
-    "signOnline": "Signer en ligne",
-    "print": "Imprimer cette page",
-    "empty": "Le texte de la pétition sera bientôt publié.",
-    "backToHome": "Retour à la page d'accueil"
   },
   "testimonials": {
     "title": "Partagez votre expérience",
