@@ -7,6 +7,7 @@
   "nav": {
     "story": "Zijn verhaal",
     "petition": "Petitie",
+    "petitionPage": "Tekst van de petitie",
     "share": "Delen",
     "testimonials": "Getuigenissen",
     "googleReviews": "Google-recensies",
@@ -59,6 +60,16 @@
     "shareOn": "Delen op",
     "copyLink": "Link kopiëren",
     "copied": "Gekopieerd!"
+  },
+  "petitionPage": {
+    "metaTitle": "Petitie — Voor transparante adopties bij Veeweyde",
+    "metaDescription": "Volledige tekst van de petitie gericht aan Veeweyde en de Minister voor Dierenwelzijn.",
+    "addresseesLabel": "Ter attentie van",
+    "readOnSite": "Lees de petitie",
+    "signOnline": "Teken online",
+    "print": "Deze pagina afdrukken",
+    "empty": "De tekst van de petitie wordt binnenkort gepubliceerd.",
+    "backToHome": "Terug naar de startpagina"
   },
   "testimonials": {
     "title": "Deel uw ervaring",

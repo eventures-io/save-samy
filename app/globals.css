@@ -33,3 +33,26 @@ body {
 .prose-samy p + p {
   margin-top: 1rem;
 }
+
+@media print {
+  :root {
+    --background: #ffffff;
+    --foreground: #000000;
+    --muted: #333333;
+    --card: #ffffff;
+    --border: #000000;
+    --accent: #000000;
+    --accent-dark: #000000;
+  }
+  body {
+    background: #ffffff;
+    color: #000000;
+    font-size: 11pt;
+    line-height: 1.4;
+  }
+  header[class*="sticky"],
+  footer:not(.print\:visible),
+  nav {
+    display: none !important;
+  }
+}

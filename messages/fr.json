@@ -7,6 +7,7 @@
   "nav": {
     "story": "Son histoire",
     "petition": "Pétition",
+    "petitionPage": "Texte de la pétition",
     "share": "Partager",
     "testimonials": "Témoignages",
     "googleReviews": "Avis Google",
@@ -59,6 +60,16 @@
     "shareOn": "Partager sur",
     "copyLink": "Copier le lien",
     "copied": "Copié !"
+  },
+  "petitionPage": {
+    "metaTitle": "Pétition — Pour la transparence des adoptions chez Veeweyde",
+    "metaDescription": "Texte intégral de la pétition adressée à Veeweyde et au Ministère du Bien-être animal.",
+    "addresseesLabel": "À l'attention de",
+    "readOnSite": "Lire la pétition",
+    "signOnline": "Signer en ligne",
+    "print": "Imprimer cette page",
+    "empty": "Le texte de la pétition sera bientôt publié.",
+    "backToHome": "Retour à la page d'accueil"
   },
   "testimonials": {
     "title": "Partagez votre expérience",

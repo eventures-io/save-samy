@@ -22,6 +22,26 @@ export async function getStory(locale: Locale): Promise<Story | null> {
   }
 }
 
+export type Petition = {
+  title?: string;
+  addressees?: string[];
+  body?: PortableTextBlock[];
+};
+
+export async function getPetition(locale: Locale): Promise<Petition | null> {
+  if (!sanityClient) return null;
+  try {
+    const query = `*[_type == "petition" && locale == $locale][0]{title, addressees, body}`;
+    return await sanityClient.fetch<Petition | null>(
+      query,
+      { locale },
+      { next: { revalidate: 60, tags: ["petition"] } },
+    );
+  } catch {
+    return null;
+  }
+}
+
 export type Review = {
   _id: string;
   authorFirstName: string;

@@ -20,7 +20,7 @@ export function SiteHeader() {
           <Link href="/#story" className="hover:text-accent">
             {t("story")}
           </Link>
-          <Link href="/#petition" className="hover:text-accent">
+          <Link href="/petition" className="hover:text-accent">
             {t("petition")}
           </Link>
           <Link href="/testimonials" className="hover:text-accent">
