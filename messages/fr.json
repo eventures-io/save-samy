@@ -24,23 +24,24 @@
     "placeholder": "Son histoire sera bientôt racontée ici — mise à jour depuis le CMS."
   },
   "why": {
-    "sectionTitle": "Pourquoi ce site",
-    "intro": "Samy est actuellement hébergé au refuge Veeweyde, à Anderlecht. Ce site documente notre expérience personnelle d'adoption auprès de ce refuge et donne la parole à toutes les personnes qui ont vécu la même chose.",
+    "kicker": "Notre démarche",
+    "sectionTitle": "Pourquoi cette mobilisation ?",
+    "intro": "Samy est actuellement hébergé au refuge Veeweyde, à Anderlecht. Ce site documente notre expérience personnelle d'adoption auprès de ce refuge et donne la parole à toutes les personnes qui ont vécu des choses similaires.",
     "point1Title": "Un animal attend",
-    "point1Body": "Samy est un jeune malinois. Il a besoin d'une famille, maintenant, pas dans six mois.",
+    "point1Body": "Samy est un jeune malinois plein d'énergie et de potentiel. Il a un besoin vital d'une famille active et engagée maintenant, pas dans six mois ou après des années d'enfermement destructeur.",
     "point2Title": "Un refus incompréhensible",
-    "point2Body": "Notre candidature d'adoption sérieuse auprès du refuge Veeweyde a été rejetée sans explication claire, avec une attitude hostile.",
+    "point2Body": "Une candidature d'adoption sérieuse, documentée et encadrée par des professionnels a été balayée sans explication cohérente, dans une opacité bureaucratique déconcertante.",
     "point3Title": "Nous ne sommes pas seuls",
-    "point3Body": "Les avis publics Google Maps du refuge Veeweyde font état de nombreux témoignages comparables. Nous rassemblons ces voix.",
+    "point3Body": "Les avis publics Google Maps et les plateformes communautaires font état de nombreux témoignages similaires d'adoptants découragés ou injustement refoulés par ce centre. Rassemblons ces voix.",
     "reviewsLink": "Voir les avis Google du refuge Veeweyde"
   },
   "petition": {
     "kicker": "Action citoyenne",
     "sectionTitle": "Signez la pétition officielle",
     "intro": "Demandez aux autorités compétentes et au conseil d'administration du refuge la révision impartiale du dossier de Samy, ainsi qu'une charte de transparence stricte sur les motifs de refus d'adoption en Belgique.",
-    "demand1": "Réévaluation indépendante du profil de Samy par un comportementaliste externe agréé.",
+    "demand1": "Réévaluation indépendante du profil de Samy.",
     "demand2": "Motivation écrite et traçable de tout refus notifié aux candidats adoptants.",
-    "demand3": "Arrêt des placements précipités sans protocole d'adaptation progressif.",
+    "demand3": "Transparence totale sur les critères de refus d'adoption : des règles claires, objectives et constantes.",
     "firstName": "Prénom",
     "firstNamePlaceholder": "Ex: Alexandre",
     "lastName": "Nom",
@@ -81,8 +82,7 @@
     "city": "Ville (facultatif)",
     "text": "Votre expérience",
     "textHelp": "Décrivez les faits que vous avez vécus. Évitez de nommer des personnes individuellement.",
-    "consentRgpd": "J'accepte que mes données soient traitées uniquement pour la modération de ce témoignage, conformément au RGPD.",
-    "consentDisplay": "J'accepte que mon prénom et ma ville apparaissent publiquement avec mon témoignage, une fois celui-ci validé.",
+    "consentNote": "Vos données sont utilisées uniquement pour la modération et la publication de ce témoignage.\nVotre prénom et votre ville apparaîtront publiquement avec votre témoignage une fois celui-ci validé.",
     "submit": "Envoyer mon témoignage",
     "submitting": "Envoi en cours…",
     "success": "Merci. Votre témoignage a bien été reçu et sera publié après validation.",
@@ -104,10 +104,10 @@
     "noteBody": "Chaque extrait est une citation courte, publiée sur Google Maps par son auteur, reproduite ici à des fins d'information et renvoyant à sa source originale. Aucun avatar ni nom complet n'est reproduit. Toute personne concernée peut demander le retrait de son extrait en écrivant à contact@save-samy.be."
   },
   "footer": {
-    "tagline": "Un site citoyen pour Samy et pour tous les animaux encore en attente.",
+    "tagline": "Un collectif citoyen et bienveillant pour Samy et pour tous les chiens anonymes qui attendent une vraie chance dans les refuges de Belgique.",
     "legal": "Mentions légales",
     "privacy": "Politique de confidentialité",
-    "contact": "Contact",
+    "contact": "Contact presse & collectif",
     "credits": "Site créé bénévolement"
   },
   "legal": {
