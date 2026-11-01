@@ -12,7 +12,7 @@ export function Hero() {
           <p className="text-sm uppercase tracking-widest text-accent font-semibold mb-4">
             {t("kicker")}
           </p>
-          <h1 className="text-4xl sm:text-5xl md:text-6xl font-semibold leading-tight tracking-tight text-balance">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl font-semibold leading-tight tracking-tight text-balance">
             {t("title")}
           </h1>
           <p className="mt-6 text-lg text-muted max-w-xl leading-relaxed">
