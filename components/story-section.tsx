@@ -12,7 +12,7 @@ export async function StorySection() {
     <section id="story" className="py-20 border-t border-border">
       <div className="mx-auto max-w-3xl px-4 sm:px-6">
         <h2 className="text-3xl sm:text-4xl font-semibold tracking-tight mb-8">
-          {t("sectionTitle")}
+          {story?.title?.trim() || t("sectionTitle")}
         </h2>
         <div className="text-foreground/90">
           {story?.body ? (
