@@ -6,7 +6,7 @@ export function Hero() {
 
   return (
     <section className="relative overflow-hidden">
-      <div className="absolute inset-0 -z-10 bg-gradient-to-b from-orange-50 via-background to-background" />
+      <div className="absolute inset-0 -z-10 bg-gradient-to-b from-stone-200 via-background to-background" />
       <div className="mx-auto max-w-6xl px-4 sm:px-6 pt-16 pb-20 grid gap-10 md:grid-cols-2 md:items-center">
         <div>
           <p className="text-sm uppercase tracking-widest text-accent font-semibold mb-4">
