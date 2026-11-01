@@ -120,14 +120,14 @@
     "title": "Politique de confidentialité",
     "intro": "Ce site respecte le Règlement Général sur la Protection des Données (RGPD).",
     "dataTitle": "Données collectées",
-    "dataBody": "Pour la pétition : prénom, nom, adresse e-mail, et éventuellement ville et commentaire. Rien d'autre n'est collecté. Nous n'utilisons pas de cookies de suivi.",
+    "dataBody": "Pour la pétition et les témoignages : prénom, nom, adresse e-mail, et éventuellement ville et commentaire. Rien d'autre n'est collecté. Nous n'utilisons pas de cookies de suivi.",
+    "basisTitle": "Base légale",
+    "basisBody": "La base légale du traitement de vos données est votre consentement, donné au moment où vous soumettez le formulaire de pétition ou de témoignage. En cliquant sur le bouton d'envoi après avoir lu la note explicative qui l'accompagne, vous consentez à la collecte, au traitement et, le cas échéant, à l'affichage public de votre prénom et de votre commune, tels que décrits ci-dessus. Vous pouvez retirer votre consentement à tout moment en écrivant à contact@save-samy.be.",
     "purposeTitle": "Finalité",
     "purposeBody": "Vos données servent uniquement à comptabiliser votre signature et, si vous l'avez accepté, à afficher publiquement votre prénom et votre ville. Nous ne vendons rien, nous ne partageons rien.",
     "retentionTitle": "Durée de conservation",
     "retentionBody": "Les signatures sont conservées jusqu'à la clôture de la pétition, puis supprimées dans un délai de 12 mois.",
     "rightsTitle": "Vos droits",
-    "rightsBody": "Vous pouvez à tout moment demander l'accès, la rectification ou la suppression de vos données en écrivant à contact@save-samy.be.",
-    "analyticsTitle": "Statistiques",
-    "analyticsBody": "Nous utilisons Plausible Analytics, un outil respectueux de la vie privée qui ne pose pas de cookies et n'identifie pas les visiteurs."
+    "rightsBody": "Vous pouvez à tout moment demander l'accès, la rectification ou la suppression de vos données en écrivant à contact@save-samy.be."
   }
 }

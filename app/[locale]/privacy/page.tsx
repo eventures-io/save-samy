@@ -16,10 +16,10 @@ export default async function PrivacyPage({
       </h1>
       <p className="text-lg text-muted leading-relaxed mb-10">{t("intro")}</p>
       <Section title={t("dataTitle")} body={t("dataBody")} />
+      <Section title={t("basisTitle")} body={t("basisBody")} />
       <Section title={t("purposeTitle")} body={t("purposeBody")} />
       <Section title={t("retentionTitle")} body={t("retentionBody")} />
       <Section title={t("rightsTitle")} body={t("rightsBody")} />
-      <Section title={t("analyticsTitle")} body={t("analyticsBody")} />
     </article>
   );
 }

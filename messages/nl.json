@@ -120,14 +120,14 @@
     "title": "Privacybeleid",
     "intro": "Deze site respecteert de Algemene Verordening Gegevensbescherming (AVG).",
     "dataTitle": "Verzamelde gegevens",
-    "dataBody": "Voor de petitie: voornaam, achternaam, e-mailadres, en optioneel stad en commentaar. Niets anders wordt verzameld. We gebruiken geen tracking-cookies.",
+    "dataBody": "Voor de petitie en de getuigenissen: voornaam, achternaam, e-mailadres, en optioneel stad en commentaar. Niets anders wordt verzameld. We gebruiken geen tracking-cookies.",
+    "basisTitle": "Rechtsgrond",
+    "basisBody": "De rechtsgrond voor de verwerking van uw gegevens is uw toestemming, gegeven op het moment waarop u het petitie- of getuigenisformulier verzendt. Door op de verzendknop te klikken na het lezen van de bijbehorende toelichting, stemt u in met het verzamelen, het verwerken en, in voorkomend geval, het openbaar tonen van uw voornaam en gemeente, zoals hierboven beschreven. U kunt uw toestemming op elk moment intrekken via contact@save-samy.be.",
     "purposeTitle": "Doel",
     "purposeBody": "Uw gegevens worden uitsluitend gebruikt om uw handtekening te tellen en, als u dat heeft toegestaan, om uw voornaam en stad openbaar te tonen. We verkopen niets, we delen niets.",
     "retentionTitle": "Bewaartermijn",
     "retentionBody": "Handtekeningen worden bewaard tot de sluiting van de petitie en vervolgens binnen 12 maanden verwijderd.",
     "rightsTitle": "Uw rechten",
-    "rightsBody": "U kunt op elk moment toegang, rectificatie of verwijdering van uw gegevens aanvragen door te schrijven naar contact@save-samy.be.",
-    "analyticsTitle": "Statistieken",
-    "analyticsBody": "We gebruiken Plausible Analytics, een privacyvriendelijk hulpmiddel dat geen cookies plaatst en bezoekers niet identificeert."
+    "rightsBody": "U kunt op elk moment toegang, rectificatie of verwijdering van uw gegevens aanvragen door te schrijven naar contact@save-samy.be."
   }
 }
