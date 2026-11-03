@@ -1,14 +1,12 @@
-import { getLocale, getTranslations } from "next-intl/server";
+"use client";
 
-export async function SignatureCounter({
-  count,
-  goal,
-}: {
-  count: number;
-  goal: number;
-}) {
-  const t = await getTranslations("petition");
-  const locale = await getLocale();
+import { useLocale, useTranslations } from "next-intl";
+import { usePetitionCount } from "./petition-count-context";
+
+export function SignatureCounter() {
+  const { count, goal } = usePetitionCount();
+  const t = useTranslations("petition");
+  const locale = useLocale();
   const formattedCount = count.toLocaleString(locale);
   const formattedGoal = goal.toLocaleString(locale);
   const pct = Math.min(100, Math.round((count / goal) * 100));
@@ -16,7 +14,7 @@ export async function SignatureCounter({
   return (
     <div className="rounded-2xl ring-1 ring-border bg-background/60 px-6 py-5">
       <div className="flex items-start gap-5">
-        <span className="text-4xl sm:text-5xl font-semibold tracking-tight text-accent leading-none">
+        <span className="text-4xl sm:text-5xl font-semibold tracking-tight text-accent leading-none tabular-nums transition-colors">
           {formattedCount}
         </span>
         <div className="flex-1 min-w-0">

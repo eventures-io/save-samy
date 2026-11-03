@@ -4,18 +4,23 @@ import { useActionState, useId, useRef, useEffect } from "react";
 import { useTranslations } from "next-intl";
 import { useFormStatus } from "react-dom";
 import { signPetition, type SignState } from "@/lib/petition/actions";
+import { usePetitionCount } from "./petition-count-context";
 
 const initial: SignState = { status: "idle" };
 
 export function PetitionForm() {
   const t = useTranslations("petition");
   const [state, formAction] = useActionState(signPetition, initial);
+  const { increment } = usePetitionCount();
   const formRef = useRef<HTMLFormElement>(null);
   const uid = useId();
 
   useEffect(() => {
-    if (state.status === "success") formRef.current?.reset();
-  }, [state.status]);
+    if (state.status === "success") {
+      formRef.current?.reset();
+      increment();
+    }
+  }, [state.status, increment]);
 
   return (
     <form ref={formRef} action={formAction} className="flex flex-col gap-5">
