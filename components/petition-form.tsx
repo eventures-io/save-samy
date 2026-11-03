@@ -5,6 +5,7 @@ import { useTranslations } from "next-intl";
 import { useFormStatus } from "react-dom";
 import { signPetition, type SignState } from "@/lib/petition/actions";
 import { usePetitionCount } from "./petition-count-context";
+import { TurnstileWidget } from "./turnstile-widget";
 
 const initial: SignState = { status: "idle" };
 
@@ -84,6 +85,8 @@ export function PetitionForm() {
       </div>
 
       <p className="text-sm text-muted leading-relaxed">{t("consentNote")}</p>
+
+      <TurnstileWidget />
 
       <SubmitButton />
 

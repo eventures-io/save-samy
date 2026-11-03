@@ -5,6 +5,7 @@ import { headers } from "next/headers";
 import { getLocale, getTranslations } from "next-intl/server";
 import { z } from "zod";
 import { getSupabaseServer } from "@/lib/supabase/server";
+import { verifyTurnstile } from "@/lib/turnstile";
 
 const SignSchema = z.object({
   firstName: z.string().trim().min(1).max(60),
@@ -74,6 +75,15 @@ export async function signPetition(
 
   if (!rateLimit(ipHash)) {
     return { status: "error", message: t("errorRateLimit") };
+  }
+
+  const turnstileToken = formData.get("cf-turnstile-response");
+  const captchaOk = await verifyTurnstile(
+    typeof turnstileToken === "string" ? turnstileToken : null,
+    ip === "unknown" ? undefined : ip,
+  );
+  if (!captchaOk) {
+    return { status: "error", message: t("errorGeneric") };
   }
 
   const supabase = getSupabaseServer();

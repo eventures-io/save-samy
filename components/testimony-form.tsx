@@ -4,6 +4,7 @@ import { useActionState, useId, useRef, useEffect } from "react";
 import { useTranslations } from "next-intl";
 import { useFormStatus } from "react-dom";
 import { submitTestimony, type TestimonyState } from "@/lib/testimony/actions";
+import { TurnstileWidget } from "./turnstile-widget";
 
 const initial: TestimonyState = { status: "idle" };
 
@@ -79,6 +80,8 @@ export function TestimonyForm() {
       <p className="text-sm text-muted leading-relaxed whitespace-pre-line">
         {t("consentNote")}
       </p>
+
+      <TurnstileWidget />
 
       <SubmitButton />
 
