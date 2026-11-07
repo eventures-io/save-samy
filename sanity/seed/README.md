@@ -1,16 +1,21 @@
 # Reviews seed
 
-`reviews.ndjson` contains the transcribed public Google Maps reviews of the
-Veeweyde shelter. Each line is a Sanity `review` document.
+`reviews.ndjson` contains transcribed public reviews of the Veeweyde shelter
+sourced from Google Maps and Golden Pages. Each line is a Sanity `review`
+document.
 
 **Posture notes:**
 - Author first names only (or initials when the display name was a handle).
 - No avatars, no surnames.
-- Full text as published by the author on Google.
-- Each review carries a `sourceUrl` back to the original Google Maps shortlink.
-- One document (`review-robert`) has `isPublished: false` because its source
-  URL was not visible in the PDF screenshots — fill it in from the studio and
-  flip `isPublished` on.
+- Full text as published by the author on the source platform.
+- Each review carries a `sourceUrl` back to its public source (Google Maps
+  shortlink or Golden Pages company page).
+- Don't cross-publish: if a review is already in the seed from Google Maps,
+  do NOT also add it from Golden Pages (or vice-versa). One entry per real
+  review.
+- `review-robert` has `isPublished: false` because no public source URL was
+  available at capture time — fill it in from the studio and flip
+  `isPublished` on once a valid link is found.
 
 ## Import into Sanity
 
@@ -29,16 +34,16 @@ npx sanity@latest dataset import ./sanity/seed/reviews.ndjson production
 npx sanity@latest dataset import ./sanity/seed/reviews.ndjson production --replace
 ```
 
-After import, open the studio (`https://save-samy.sanity.studio`) → **Google
+After import, open the studio (`https://save-samy.sanity.studio`) → **Public
 Review** list → spot-check a few. Each one can be unpublished from Sanity by
 toggling the `isPublished` field off.
 
 ## When the lawyer greenlights going public
 
-Set `NEXT_PUBLIC_SHOW_TESTIMONIALS=1` in Vercel → redeploy. That flips on:
-- the nav link to `/testimonials`
+Set `NEXT_PUBLIC_SHOW_PUBLIC_REVIEWS=1` in Vercel → redeploy. That flips on:
+- the nav link to `/public-reviews`
 - indexing by search engines (robots meta is `noindex` until then)
 
-The page itself (`/fr/testimonials`, `/nl/testimonials`) is already reachable
-at the URL even without the flag, so you can share the link with the lawyer
-for review.
+The page itself (`/fr/public-reviews`, `/nl/public-reviews`) is already
+reachable at the URL even without the flag, so you can share the link with
+the lawyer for review.

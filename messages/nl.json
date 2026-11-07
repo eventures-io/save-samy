@@ -9,7 +9,7 @@
     "petition": "Petitie",
     "share": "Delen",
     "testimonials": "Getuigenissen",
-    "googleReviews": "Google-recensies",
+    "publicReviews": "Openbare recensies",
     "contact": "Contact"
   },
   "hero": {
@@ -33,7 +33,7 @@
     "point2Body": "Een serieuze, gedocumenteerde en door professionals omkaderde adoptieaanvraag werd zonder samenhangende uitleg terzijde geschoven, in een verontrustende bureaucratische ondoorzichtigheid.",
     "point3Title": "Wij staan niet alleen",
     "point3Body": "De openbare Google Maps-recensies en de online gemeenschapsplatforms tonen talrijke vergelijkbare getuigenissen van ontmoedigde of onterecht geweigerde adoptanten door dit centrum. Laten we deze stemmen bundelen.",
-    "reviewsLink": "Bekijk de Google-recensies van asiel Veeweyde"
+    "reviewsLink": "Bekijk de openbare recensies van asiel Veeweyde"
   },
   "petition": {
     "kicker": "Burgeractie",
@@ -93,14 +93,14 @@
     "noteTitle": "Toelichting bij moderatie",
     "noteBody": "Getuigenissen worden nagelezen voor publicatie om beledigingen of persoonlijke aanvallen te vermijden. Alleen uw voornaam (en uw stad, als u daarmee instemde) wordt openbaar getoond. U kunt op elk moment de verwijdering van uw getuigenis aanvragen via contact@save-samy.be."
   },
-  "googleReviews": {
-    "title": "Openbare Google-recensies",
-    "subtitle": "Recensies die derden publiceerden op Google Maps over het asiel Veeweyde",
-    "intro": "De onderstaande teksten werden openbaar gepubliceerd door hun auteurs op de Google Maps-pagina van het asiel Veeweyde. We nemen enkel de tekst over, met de voornaam en een directe link naar de oorspronkelijke recensie bij Google.",
-    "openOriginal": "Bekijk de originele recensie op Google",
+  "publicReviews": {
+    "title": "Openbare recensies over het asiel Veeweyde",
+    "subtitle": "Recensies die derden publiceerden op openbare platformen (Google Maps, Golden Pages, enz.) over het asiel Veeweyde",
+    "intro": "De onderstaande teksten werden openbaar gepubliceerd door hun auteurs op recensieplatformen die aan het asiel Veeweyde zijn gewijd. We nemen enkel de tekst over, met de voornaam en een directe link naar de oorspronkelijke recensie bij het betrokken platform.",
+    "openOriginal": "Bekijk de originele recensie",
     "ratingLabel": "{rating, plural, one {# ster} other {# sterren}}",
     "empty": "Er zijn momenteel geen gepubliceerde recensies.",
-    "noteBody": "Elke tekst is een kort citaat, openbaar gepubliceerd door de auteur op Google Maps, hier weergegeven ter informatie en verwijzend naar de oorspronkelijke bron. Betrokkenen kunnen de verwijdering van hun citaat aanvragen via contact@save-samy.be."
+    "noteBody": "Elke tekst is een kort citaat, openbaar gepubliceerd door de auteur op een recensieplatform (Google Maps, Golden Pages, enz.), hier weergegeven ter informatie en verwijzend naar de oorspronkelijke bron. Betrokkenen kunnen de verwijdering van hun citaat aanvragen via contact@save-samy.be."
   },
   "footer": {
     "tagline": "Een vriendelijk burgercollectief voor Samy en voor alle anonieme honden die in de Belgische asielen op een echte kans wachten.",

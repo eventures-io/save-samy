@@ -26,8 +26,8 @@ export function SiteHeader() {
           <Link href="/testimonials" className="hover:text-accent">
             {t("testimonials")}
           </Link>
-          <Link href="/google-reviews" className="hover:text-accent">
-            {t("googleReviews")}
+          <Link href="/public-reviews" className="hover:text-accent">
+            {t("publicReviews")}
           </Link>
           <Link href="/#share" className="hover:text-accent">
             {t("share")}

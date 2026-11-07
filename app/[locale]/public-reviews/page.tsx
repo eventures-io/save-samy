@@ -8,8 +8,8 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
-  const t = await getTranslations({ locale, namespace: "googleReviews" });
-  const indexable = process.env.NEXT_PUBLIC_SHOW_GOOGLE_REVIEWS === "1";
+  const t = await getTranslations({ locale, namespace: "publicReviews" });
+  const indexable = process.env.NEXT_PUBLIC_SHOW_PUBLIC_REVIEWS === "1";
   return {
     title: t("title"),
     description: t("subtitle"),
@@ -19,14 +19,14 @@ export async function generateMetadata({
   };
 }
 
-export default async function GoogleReviewsPage({
+export default async function PublicReviewsPage({
   params,
 }: {
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
   setRequestLocale(locale);
-  const t = await getTranslations("googleReviews");
+  const t = await getTranslations("publicReviews");
   const reviews = await getReviews();
 
   return (

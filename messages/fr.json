@@ -9,7 +9,7 @@
     "petition": "Pétition",
     "share": "Partager",
     "testimonials": "Témoignages",
-    "googleReviews": "Avis Google",
+    "publicReviews": "Avis publics",
     "contact": "Contact"
   },
   "hero": {
@@ -33,7 +33,7 @@
     "point2Body": "Une candidature d'adoption sérieuse, documentée et encadrée par des professionnels a été balayée sans explication cohérente, dans une opacité bureaucratique déconcertante.",
     "point3Title": "Nous ne sommes pas seuls",
     "point3Body": "Les avis publics Google Maps et les plateformes communautaires font état de nombreux témoignages similaires d'adoptants découragés ou injustement refoulés par ce centre. Rassemblons ces voix.",
-    "reviewsLink": "Voir les avis Google du refuge Veeweyde"
+    "reviewsLink": "Voir les avis publics du refuge Veeweyde"
   },
   "petition": {
     "kicker": "Action citoyenne",
@@ -93,14 +93,14 @@
     "noteTitle": "Note sur la modération",
     "noteBody": "Les témoignages sont relus avant publication afin d'écarter les propos injurieux ou nommément accusatoires. Seul votre prénom (et votre ville, si vous l'avez accepté) est affiché publiquement. Vous pouvez demander la suppression de votre témoignage à tout moment en écrivant à contact@save-samy.be."
   },
-  "googleReviews": {
-    "title": "Avis publics sur Google Maps",
-    "subtitle": "Avis publiés par des tiers sur Google Maps au sujet du refuge Veeweyde",
-    "intro": "Les textes ci-dessous ont été publiés publiquement par leurs auteurs sur la fiche Google Maps du refuge Veeweyde. Nous reproduisons uniquement le texte, en indiquant le prénom et un lien direct vers l'avis original hébergé par Google.",
-    "openOriginal": "Voir l'avis original sur Google",
+  "publicReviews": {
+    "title": "Avis publics sur le refuge Veeweyde",
+    "subtitle": "Avis publiés par des tiers sur des plateformes publiques (Google Maps, Golden Pages, etc.) au sujet du refuge Veeweyde",
+    "intro": "Les textes ci-dessous ont été publiés publiquement par leurs auteurs sur des plateformes d'avis en ligne consacrées au refuge Veeweyde. Nous reproduisons uniquement le texte, en indiquant le prénom et un lien direct vers l'avis original hébergé par la plateforme concernée.",
+    "openOriginal": "Voir l'avis original",
     "ratingLabel": "{rating, plural, one {# étoile} other {# étoiles}}",
     "empty": "Aucun avis n'est publié pour le moment.",
-    "noteBody": "Chaque extrait est une citation courte, publiée sur Google Maps par son auteur, reproduite ici à des fins d'information et renvoyant à sa source originale. Toute personne concernée peut demander le retrait de son extrait en écrivant à contact@save-samy.be."
+    "noteBody": "Chaque extrait est une citation courte, publiée publiquement par son auteur sur une plateforme d'avis (Google Maps, Golden Pages, etc.), reproduite ici à des fins d'information et renvoyant à sa source originale. Toute personne concernée peut demander le retrait de son extrait en écrivant à contact@save-samy.be."
   },
   "footer": {
     "tagline": "Un collectif citoyen et bienveillant pour Samy et pour tous les chiens anonymes qui attendent une vraie chance dans les refuges de Belgique.",

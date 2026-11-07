@@ -2,7 +2,7 @@ import { defineType, defineField } from "sanity";
 
 export const reviewType = defineType({
   name: "review",
-  title: "Google Review",
+  title: "Public Review",
   type: "document",
   fields: [
     defineField({
@@ -30,7 +30,7 @@ export const reviewType = defineType({
     }),
     defineField({
       name: "text",
-      title: "Review text (as published)",
+      title: "Review text (as published on the source platform)",
       type: "text",
       rows: 6,
       validation: (r) => r.required().max(2000),
@@ -51,7 +51,7 @@ export const reviewType = defineType({
     }),
     defineField({
       name: "originalDateLabel",
-      title: "Date as shown on Google (e.g. 'a month ago', 'il y a 3 mois')",
+      title: "Date as shown on the source (e.g. 'a month ago', 'il y a 3 mois', '5 August 2025')",
       type: "string",
     }),
     defineField({
@@ -61,20 +61,12 @@ export const reviewType = defineType({
     }),
     defineField({
       name: "sourceUrl",
-      title: "Google Maps direct link to this review",
-      description: "The maps.app.goo.gl/... shortlink shown on the screenshot.",
+      title: "Direct link to this review",
+      description:
+        "Public URL where the review is hosted (Google Maps shortlink, Golden Pages page, etc.).",
       type: "url",
       validation: (r) =>
-        r
-          .required()
-          .uri({ scheme: ["http", "https"] })
-          .custom((value) => {
-            if (!value) return true;
-            return value.includes("maps.app.goo.gl") ||
-              value.includes("google.com/maps")
-              ? true
-              : "URL must point to Google Maps";
-          }),
+        r.required().uri({ scheme: ["http", "https"] }),
     }),
     defineField({
       name: "isPublished",
