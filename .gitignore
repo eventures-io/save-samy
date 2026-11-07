@@ -37,6 +37,9 @@ yarn-error.log*
 # local scratch
 /tmp/
 
+# playwright MCP session artifacts (console logs, page snapshots)
+/.playwright-mcp/
+
 # never commit private research material
 /docs/private/
 
