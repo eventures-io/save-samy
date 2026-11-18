@@ -1,8 +1,21 @@
-import createMiddleware from "next-intl/middleware";
-import { routing } from "./i18n/routing";
+import { NextResponse } from "next/server";
 
-export default createMiddleware(routing);
+// Campaign ended. Every public route returns HTTP 410 Gone with no body so
+// search engines deindex and visitors get a browser-native error page.
+// /studio is left alone so the owner can still reach the Sanity CMS.
+// To revive the site: `git revert` the commit that introduced this change.
+export default function proxy() {
+  return new NextResponse(null, {
+    status: 410,
+    headers: {
+      "Cache-Control": "no-store, max-age=0",
+      "X-Robots-Tag": "noindex, nofollow",
+    },
+  });
+}
 
 export const config = {
-  matcher: ["/((?!api|studio|_next|_vercel|.*\\..*).*)"],
+  matcher: [
+    "/((?!studio|_next|_vercel|api|favicon\\.ico|apple-icon\\.png|icon\\.png|robots\\.txt|sitemap\\.xml).*)",
+  ],
 };
